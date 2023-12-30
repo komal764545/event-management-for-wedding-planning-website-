@@ -1,0 +1,1533 @@
+
+
+Minor Project eport
+on
+InvoicemanagementSystem
+
+Submittedfor
+Partialfulfillmentofawardof
+
+BACHELOR OF COMPUTER APPLICATIONS(BCA)
+
+BY
+Manisha Ranjan
+(Rollno: 0904160)
+
+
+GuidedBy
+Mr.Nikhil shukla
+Year(2020-21)
+
+
+
+COLLEGE CERTIFICATE
+
+
+
+This is to certify that Manisha Ranjan a client of Bachelor of Computer.
+Application,5thSemesterofthisinstitutehascompletedtheMinorProjecton event management system in partial fulfillment of Bachelor of Computer Application program and prepare this report under my guidance and supervision as required for the completion of her degree. To the best of my knowledge and belief, the above report has been prepared by the above saidclient.
+
+She possesses a good moral character and I wish him/her successin his/her life.
+
+
+Mr. Nikhil Shukla
+Assistant Professor
+
+Date	09/08/2021
+
+To Whom So Ever It
+ May concern
+
+This is certify that "Manisha Ranjan", Roll number 0904160, BCA Vth sem client of Jagran college of art, science and commerce Kanpur has done the project work on event management System under the guidance of "Mr NikhilShukla" towards the fulfilment of the award of Bachelor of Computer Application (BCA) during the session 2018-2021.
+
+                       Regards:
+Date:05/08/2021
+
+
+Candidate Declaration
+Manisha Ranjan (Roll No- 0904160)
+Pragya Sharma (Roll No- 0104809)
+Lalitya Mishra (Roll No- 0104799)
+Komal Kushwaha (Roll No- 0104795)
+Pragya Katiyar(Roll No- 0104808) 
+
+I the undersigned solemnly declare that the project report Manisha Ranjan is based on my own work carried out during the course of our study under the supervision of NikhilShukla.
+
+Assert the statements made and conclusions drawn are an outcome of my research work I further certify that.
+The work contained in the report is original and has been done by me under the general supervision of my supervisor.
+The work has not been submitted to any other Institution for anyother degree/diploma/certificate in this university or any other University of India or abroad.
+We have followed the guidelines provided by the university in writing thereport.
+Whenever we have used materials (data, theoretical analysis, and text) from other sources, we have givendue credit to them in the text of the report and giving theirdetails in the references.
+	
+Name :- Manisha Ranjan (Roll No: 0904160 )
+
+ACKNOWLEDGEMENT
+
+I have great pleasure expressing my thanks to those who have
+contributed their valuable time in helping to achieve success in my project report.
+First of all, I thank the almighty GOD who showered his immense blessings on me, which helped me to complete this project successfully.
+I am obliged to our Principal Dr. ASMITA DUBEY, for providing me necessary facilities to perform project work in college premises and assigning me such a demanding and useful project. I wish to place my sincere gratitude and deep appreciation to him.
+I would like to sincerely thank and expresses my gratitude to our Principal Dr. ASMITA DUBEY for his continuous encouragement, guidance and help in completion of my practical work.
+
+I would also like to express my deep sense of gratitude to Mr. Nikhil Shukla for his guidance, wholehearted supervision, constructive comments valuable suggestions and inspirations, efforts, motivation and full coordination at various stages of training session, I have received endless help from him.
+Finally I wish to say thanks to all those people who have their contribution in developing my project and project report successfully.
+
+Manisha Ranjan 
+0904160
+
+BCA5th   Semester
+
+
+
+
+
+Index
+Scopes
+Needs
+Conclusion
+Introduction
+Front end & backend software declaration
+Databases
+Tables
+ScreenShot
+      Project Codes(<?PHP ?>, Html, Mysql, Java Script)
+Scopes
+
+
+Event management is the application of project management to the creation and development of small and/or large-scale personal or corporate events such as festivals, conferences, ceremonies, weddings, formal parties, concerts, or conventions. It involves studying the brand, identifying its target audience, devising the event concept, and coordinating the technical aspects before actually launching the event.
+The events industry now includes events of all sizes from the Olympics down to business breakfast meetings. Many industries, celebrities, charitable organizations, and interest groups hold events in order to market their label, build business relationships, raise money, or celebrate achievement.
+The process of planning and coordinating the event is usually referred to as event planning and which can include budgeting, scheduling, site selection, acquiring necessary permits, coordinating transportation and parking, arranging for speakers or entertainers, arranging decor, event security, catering, coordinating with third-party vendors, and emergency plans. Each event is different in its nature so process of planning & execution of each event differs on basis of the type ofevent.
+The event manager is the person who plans and executes the event, taking responsibility for the creative, technical, and logistical elements. This includes overall event design, brand building, marketing and communication strategy, audio-visual production, script writing, logistics, budgeting, negotiation, and clientservice.
+Due to the complexities involved, the extensive body of knowledge required, and the rapidly changing environment, event management is frequently cited as one of the most stressful career paths, in line next tosurgeons.
+
+Project name
+EVENT MANAGEMENT SYSTEM
+
+Group Member
+Manisha Ranjan (Roll No- 0904160)
+Pragya Sharma (Roll No- 0104809)
+Lalitya Mishra (Roll No- 0104799)
+Komal Kushwaha (Roll No- 0104795)
+Pragya Katiyar(Roll No- 0104808) 
+
+Front end and Backend Software declaration
+
+
+
+FRONT END:
+
+HTML CSS and BOOTSTRAP, materialize css is used to develop responsive website.
+HTML:
+
+HTML or Hypertext Markup Language is the standard markup language used to create web pages
+HTML is written in the form of HTML elements consisting of tags enclosed in angular brackets (like <html). HTML tags most commonly come in pairs like
+<h1> and </h1> although some tags represent empty elements and so are impaired for example <img>. The first tag in a pair is the start tag and the second tag is the end tag (they are also called opening tags and closing tags). Though not always necessary, it is best practice to append a slash to tags which are not paired with a closing tag.
+
+BACK END:
+
+SQL SERVER:
+
+MySQL Server is an application used to create computer databases for the family of server operating systems. It provides an environment used to generate databases that can be accessed from workstations, the web, or other media such as a personal digital assistant MySQL Server is probably the most accessible and the most documented enterprise database environment right now.
+
+WHY TO USE MYSQL:
+
+*Leading open source RDBMS
+*Ease of e-No frills
+Robust
+Security
+*Multiple OS Support
+Free
+*Technical support
+*Support large database-up to 50 million rows. file size limit ap to 8 Millien TB
+
+
+PHP:
+
+WHAT IS PHP?
+     
+PHP is an acronym for "PHP HypertextPreprocessor"
+PHP is a widely-used, open source scriptinglanguage
+PHP scripts are executed on the server
+PHP costs nothing, it is free to download and use
+
+WHAT IS PHP FILE?
+
+PHP files can contain text, HTML, CSS,  JavaScript, andPHP code
+
+*PHP code are executed on the server, and the result is returned to the browser as plain HTML.
+
+PHP files have extension"php".
+WHAT CAN PHP DO?
+
+PHP can generate dynamic pagecontent
+PHP can create open read, write, delete, and close files onthe server
+PHP can collect formdata.
+PHP can send and receivecookies.
+PHP can add delete, modify data in yourdatabase.
+PHP can restrict users to access some pages on your website.
+PHP can encryptdata.
+With PHP you are not limited to output HTML. You can output images, PDF files, and even Flash movies You can also output any text, such as XHTML and XML.
+System Specification
+
+Processor	Minimum requirement (Pentium)
+Ram	256 Mb
+Disk space	20 GB
+Platform	Any OS
+Database server	SQL server
+Server	WAMP
+Front end	HTML,CSS
+Back end	PHP,MYSQL
+
+
+Hardware and software used for server
+
+
+
+
+Processor	Minimum requirement (Pentium)
+Ram	256 Mb
+Disk space	No matter
+Platform	Any OS
+
+Hardware and software used for client
+
+
+DataBase:
+-- phpMyAdmin SQL Dump
+-- version 3.3.9
+-- http://www.phpmyadmin.net
+-- Host: localhost
+-- Generation Time: Aug 08, 2021 at 01:42PM
+-- Server version: 5.1.53
+-- PHP Version: 5.3.4
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHA RACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CH ARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COL
+
+LATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+-- Database: `form`
+-- Table structure for table `contact`
+CREATE TABLE IF NOT EXISTS `contact` (
+`name` varchar(250) NOT NULL,
+`phn` varchar(250) NOT NULL,
+`email` varchar(250) NOT NULL,
+`message` varchar(250) NOT NULL
+) ENGINE=MyISAM DEFAULT
+CHARSET=latin1;
+
+-- Dumping data for table `contact`
+INSERT INTO `contact` (`name`, `phn`, `email`,
+
+`message`) VALUES
+('manisha', '1313', 'manisha@gmail.com', 'hey');
+-- Table structure for table `login`
+CREATE TABLE IF NOT EXISTS `login` (
+`email` varchar(250) NOT NULL,
+`password` varchar(250) NOT NULL
+) ENGINE=MyISAM DEFAULT
+CHARSET=latin1;
+Table->
+-- Dumping data for table `login`
+INSERT INTO `login` (`email`, `password`) VALUES
+('manisha@gmail.com', 'manisha'), ('pragya@gmail.com', 'pragya');
+
+
+-- Table structure for table `student`
+CREATE TABLE IF NOT EXISTS `student` (
+`s_no` int(11) NOT NULL,
+`roll_no` int(11) NOT NULL,
+`name` varchar(250) NOT NULL,
+`father_name` varchar(250) NOT NULL,
+`class` int(11) NOT NULL,
+`mobile` varchar(11) NOT NULL,
+`email` varchar(250) NOT NULL,
+`password` varchar(20) NOT NULL,
+`remark` varchar(250) NOT NULL, PRIMARY KEY (`s_no`,`roll_no`,`class`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+Data->
+-- Dumping data for table `client`
+INSERT INTO `student` (`s_no`,`sr_no`,
+`name`, `father_name`, `religion`,`mobile`,
+
+`email`, `password`, `remark`) VALUES (0, 1, 'pragya', 'abx', hindu, '21313313',
+'pragya@gmail.com', '1234', 'hey');
+
+Screenshot-
+
+Home->
+ 
+ 
+ 
+
+About->
+
+ 
+ 
+
+
+
+
+
+Servies->
+ 
+ 
+ 
+ 
+ 
+
+Gallery->
+
+ 
+ 
+ 
+
+
+
+
+Contact us->
+ 
+
+
+Login->
+ 
+
+Admin Login->
+ 
+
+Client login->
+ 
+
+Client Dashboard->
+ 
+
+Admin Dashboard->
+ 
+
+Header.php:-
+<!DOCTYPY html>
+<html>
+<head>
+<title>Event Managment</title>
+<style type="text/css">
+ul{
+margin:0;
+padding:0;
+list-style:none;
+height: 46px;
+line-height:46px;
+background-color: #fff;
+font-family: arial,sans-serif;
+font-size:30px;
+}
+li{
+float:left;
+border-right: 1px solid #3C0104;
+}
+a{
+display: block;
+padding: 0 28px;
+color: #3C0104;
+text-decoration:none;
+}
+a:hover, .active a{
+background-color: #ffc400;
+}
+</style>
+</head>
+<body bgcolor="">
+<ul>
+<li></li>
+<li class="active"><a href="home.php">Home</a></li>
+<li><a href="about.php">About</a></li>
+<li><a href="services.php">Servies</a></li>
+<li><a href="gallary.php">Gallery</a></li>
+<li><a href="contact.php">Contact Us</a></li>
+<li><a href="login.php">Register</a></li>
+</ul>
+</body>
+</html>
+Home.php:-
+<!DOCTYPY html>
+<html>
+<head>
+<title>Event Managment</title>
+<style type="text/css">
+#slider{
+overflow: hidden
+}
+#slider figure{
+position: relative;
+width:500%;
+margin:0;
+left:0;
+animation:10s slider infinite;
+}
+#slider figure img{
+width:20%;
+float:left;
+}
+@keyframes slider{
+0%{
+left:0;
+}
+20%{
+left:0;
+}
+25%{
+left:-100%;
+}
+45%{
+left:-100%;
+}
+50%{
+left:-200%;
+}
+70%{
+left:-200%;
+}
+}
+</style>
+</head>
+<body bgcolor="#3c010e" text="white">
+<?php
+include_once("header.php")
+?>
+<div id="slider">
+<figure>
+<img src="img/1.jpg">
+<img src="img/2.jpg">
+<img src="img/3.jpg">
+</figure>
+</div>
+<br/>
+<h1 align="center">WELCOME TO <font color="#ffc400">DREAMS LUXURY
+WEDDINGS</font></h1>
+<hr color="#ffc400" size="3" width="150px"/>
+<font size="4px">
+<p align="center">We give a marvelous touch to your special day with our
+leadership in the wedding planning process.<br/>
+We assist you in making your day more magical.</p></font>
+<table border="2px" width="1335px" align ="center">
+<tr><td colspan="2"><img src="img/logo.png"></td>
+<td colspan="3"><font size="4px">
+<h1 align="left">TELL YOUR DREAMS<br/>
+WE MAKE IT REAL</h1>
+<hr color="#ffc400" size="3" width="80px"align="left"/>
+<p>All the brides and grooms just want one thing and that is their wedding
+day to be one of the most beautiful experiences in their life. People have
+dreams and this is one day when they want all their dreams me true. We at
+Vivah luxury weddings makes
+sure that everything you once planned is actually happening on your
+wedding day. From d‚cor to Mehndi we can handle all.</p></td></tr>
+<tr><td colspan="2"></td>
+<td align="center"><h2><font color="#ffc400">VIVAH</font></h2><p><font
+size="4">we make sure that you take your vows in the setting you always
+dreamt of.</p></font></td>
+<td align="center"><h2><font
+color="#ffc400">LUXURY</font></h2><p><font size="4">we promise to give
+you a luxury royal wedding with personal consideration and
+expertise.</p></font></td>
+<td align="center"><h2><font
+color="#ffc400">WEDDINGS</font></h2><p><font size="4">we plan a
+wedding that leaves an unforgettable experience for all. We make your
+wedding hassle free and the occasion that will be a treasured
+one.</p></font></td></tr>
+</table><br/><br/>
+<h1 align="center">PHOTO GALLERY</h1>
+<hr color="#ffc400" size="3" width="100px"/>
+<table border="0px" width="1335px" align ="center">
+<tr><td align="center"><img src="img/gallary/1.jpg" height="200"
+width="300"></td>
+<td align="center"><img src="img/gallary/2.jpg" height="200"
+width="300"></td>
+<td align="center"><img src="img/gallary/3.jpg" height="200"
+width="300"></td>
+<td align="center"><img src="img/gallary/4.jpg" height="200"
+width="300"></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td align="center"><img src="img/gallary/5.jpg" height="200"
+width="300"></td>
+<td align="center"><img src="img/gallary/6.jpg" height="200"
+width="300"></td>
+<td align="center"><img src="img/gallary/7.jpg" height="200"
+width="300"></td>
+<td align="center"><img src="img/gallary/8.jpg" height="200"
+width="300"></td></tr>
+<tr><td colspan="4" align="center"><br/><button class="btn btn-secondary"><a href="gallary.php"><font size="4px">Read
+More</font></a></button></a></td></tr>
+</table>
+<br/><br/>
+<div class="copyright" align="center">
+&copy; Copyright <strong><span>Event</span></strong>. All Rights
+Reserved
+</div>
+</body>
+</html>
+About.php:-
+<!DOCTYPY html>
+<html>
+<head>
+<title>Event Managment</title>
+<style type="text/css">
+#slider{
+overflow: hidden
+}
+#slider figure{
+position: relative;
+width:500%;
+margin:0;
+left:0;
+animation:10s slider infinite;
+}
+#slider figure img{
+width:20%;
+float:left;
+}
+@keyframes slider{
+0%{
+left:0;
+}
+20%{
+left:0;
+}
+25%{
+left:-100%;
+}
+45%{
+left:-100%;
+}
+50%{
+left:-200%;
+}
+70%{
+left:-200%;
+}
+}
+</style>
+</head>
+<body bgcolor="#3c010e" text="white">
+<?php
+include_once("header.php")
+?>
+<div id="slider">
+<figure>
+<img src="img/s1.jpg">
+<img src="img/s2.jpg">
+<img src="img/s3.jpg">
+</figure>
+</div>
+<br/>
+<table border="0px" width="1335px" align ="center">
+<tr><td align="left"><h1>ABOUT US</h1>
+<hr color="#ffc400" size="3" width="80px"align="left"/>
+<p><font size="4px">We are overpoweringly dedicated to helping people
+celebrate their life. We are known as the
+most professional destination wedding planners in Delhi and are here to
+inspire and assist people to have the wedding of their romantic and wildest
+dreams. We take care of each and everything from beginning to end and
+provide our customers with a great sense of satisfaction,
+confidence, entertainment, and unforgettable and exciting moments that
+will last for longer. We are the highest in the List of Top luxury wedding
+planners in Delhi NCR, Noida and Gurgaon.</font></p></td>
+<td align="right"><img src="img/about1.jpg" height="400"
+width="600"></td></tr>
+<tr><td align="right"><img src="img/about2.jpg" height="400"
+width="700"></td>
+<td align="left"><h1>KNOW US</h1>
+<hr color="#ffc400" size="3" width="80px"align="left"/>
+<p><font size="4px">Vivah Luxury Weddings is known to be the best
+destination wedding planners in Delhi. You can rely on us for our
+dedication and truly expert services that we offer to make your wedding day
+unique and special.</font></p></td></tr>
+</table>
+<br/><br/>
+<div class="copyright" align="center">
+&copy; Copyright <strong><span>Event</span></strong>. All Rights
+Reserved
+</div>
+</body>
+<html>
+Services.php:-
+<!DOCTYPY html>
+<html>
+<head>
+<title>Event Managment</title>
+</head>
+<body bgcolor="#3c010e" text="white">
+<?php
+include_once("header.php")
+?>
+<h1 align="center">OUR SERVICES</h1>
+<hr color="#ffc400" size="3" width="80px"/><br/><br/>
+<table border="0px" width="1335px" align ="center">
+<tr><td align="right"><img src="img/VENUE MANAGEMENT.jpg"
+height="300" width="600"></td>
+<td align="left"><h1>VENUE MANAGEMENT</h1>
+<hr color="#ffc400" size="3" width="80px"align="left"/>
+<p><font size="4px">Vivah luxury wedding is an established Wedding
+Planners in Delhi NCR and Gurgaon and we have
+expertise in managing luxurious and royal weddings at any venue you
+decide. We strive on making your wedding day
+the most cherished and memorable experience of your life by offering the
+top class menu in Delhi NCR, Noida and Gurgaon.
+<br/><br/><button class="btn btn-secondary"><a href="gallary.html"><font
+size="4px">Read More</a></font></button></font></p></td></tr>
+<tr><td align="left"><h1>WEDDING COMMUNICATION</h1>
+<hr color="#ffc400" size="3" width="80px"align="left"/>
+<p><font size="4px">No matter you are having a wedding planner or not,
+our expert team is going to help you in every step whether
+it is to choose a color from a catalog of taking care of the taste buds of your
+guests. We are having some best plans stored
+in for you.
+<br/><br/><button class="btn btn-secondary"><a href="gallary.html"><font
+size="4px">Read More</a></font></button></font></p></td>
+<td align="left"><img src="img/WEDDING COMMUNICATION.jpg"
+height="300" width="600"></td></tr>
+<tr><td align="right"><img src="img/CATERING.jpg" height="300"
+width="600"></td>
+<td align="left"><h1>CATERING</h1>
+<hr color="#ffc400" size="3" width="80px"align="left"/>
+<p><font size="4px">When it comes to Indian weddings we know how to
+impress your guests. We, the best wedding planners in
+Delhi NCR and Gurgaon, considering traditional wedding food, keeping the
+cultural taste in mind along with several other
+tasty options are also served so that the taste of your wedding food lasts in
+the memories of your guests for very long.
+<br/><br/><button class="btn btn-secondary"><a
+href="catering.php"><font size="4px">Read
+More</a></font></button></font></p></td></tr>
+<tr><td align="left"><h1>DESIGN & DECOR</h1>
+<hr color="#ffc400" size="3" width="80px"align="left"/>
+<p><font size="4px">We are the best class theme wedding planners in
+Delhi, Noida and Gurgaon because having expertise in bringing your
+fantasies into reality.
+We add a sense of romance in your wedding decorations using flowers of
+your choice blended with our own unique ideas when
+it comes to creating an outstanding wedding decor.
+<br/><br/><button class="btn btn-secondary"><a href="gallary.html"><font
+size="4px">Read More</a></font></button></font></p></td>
+<td align="left"><img src="img/DESIGN & DECOR.jpg" height="300"
+width="600"></td></tr>
+<tr><td align="right"><img src="img/ENTERTAINMENT.jpg" height="300"
+width="600"></td>
+<td align="left"><h1>ENTERTAINMENT</h1>
+<hr color="#ffc400" size="3" width="80px"align="left"/>
+<p><font size="4px">Indian weddings are complete entertainment packages
+in it, but we know that it is important that your guests get the best
+entertainment. To make
+your guests go crazy on the beats we, the excellent Theme Decorators,
+appoint best DJ's, dancers, singers, live stage, family & friends'
+performances and so on.
+<br/><br/><button class="btn btn-secondary"><a href="gallary.html"><font
+size="4px">Read More</a></font></button></font></p></td></tr>
+<tr><td align="left"><h1>PHOTOGRAPHY</h1>
+<hr color="#ffc400" size="3" width="80px"align="left"/>
+<p><font size="4px">We make sure that you get the best and quality still
+memories of your special day for which we appoint the expert wedding
+photographers who are well aware of the
+different types of wedding shots and how to produce brilliant pictures.
+<br/><br/><button class="btn btn-secondary"><a href="gallary.html"><font
+size="4px">Read More</a></font></button></font></p></td>
+<td align="left"><img src="img/PHOTOGRAPHY.jpg" height="300"
+width="600"></td></tr>
+<tr><td align="right"><img src="img/MAKEUP ARTIST.jpg" height="300"
+width="600"></td>
+<td align="left"><h1>MAKEUP ARTIST</h1>
+<hr color="#ffc400" size="3" width="80px"align="left"/>
+<p><font size="4px">We arrange top and professional makeup artists for
+brides, giving them awesome looks, as they adopt stylish and new makeup
+techniques and use quality products.
+One can get an astonishing look and feel with our talented makeup artists.
+They know each and everything how to change your look, giving you a bridal
+feel.
+<br/><br/><button class="btn btn-secondary"><a href="gallary.html"><font
+size="4px">Read More</a></font></button></font></p></td></tr>
+<tr><td align="left"><h1>STYLING</h1>
+<hr color="#ffc400" size="3" width="80px"align="left"/>
+<p><font size="4px">Styling is also the most common factor for a bridal.
+With the top theme wedding planners, you can get your old style turned
+into a modern and sophisticated one.
+By applying new styling techniques and methods, we can help you match
+the latest wedding trends and become an eye-catching person.
+<br/><br/><button class="btn btn-secondary"><a href="gallary.html"><font
+size="4px">Read More</a></font></button></font></p></td>
+<td align="left"><img src="img/STYLING.jpg" height="300"
+width="600"></td></tr>
+</table>
+<br/><br/>
+<div class="copyright" align="center">
+&copy; Copyright <strong><span>Event</span></strong>. All Rights
+Reserved
+</div>
+</body>
+</html>
+Gallary.php:-
+<!DOCTYPY html>
+<html>
+<head>
+<title>Event Managment</title>
+</head>
+<body bgcolor="#3c010e" text="white">
+<?php
+include_once("header.php")
+?>
+<h1 align="center">DREAMS WEDDINGS GALLERY</h1>
+<hr color="#ffc400" size="3" width="150px"/><br/><br/>
+<table border="0px" width="1335px" align ="center">
+<tr><td align="center"><img src="img/gallary/1.jpg" height="200"
+width="300"></td>
+<td align="center"><img src="img/gallary/2.jpg" height="200"
+width="300"></td>
+<td align="center"><img src="img/gallary/3.jpg" height="200"
+width="300"></td>
+<td align="center"><img src="img/gallary/4.jpg" height="200"
+width="300"></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td align="center"><img src="img/gallary/5.jpg" height="200"
+width="300"></td>
+<td align="center"><img src="img/gallary/6.jpg" height="200"
+width="300"></td>
+<td align="center"><img src="img/gallary/7.jpg" height="200"
+width="300"></td>
+<td align="center"><img src="img/gallary/8.jpg" height="200"
+width="300"></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td align="center"><img src="img/gallary/9.jpg" height="200"
+width="300"></td>
+<td align="center"><img src="img/gallary/10.jpg" height="200"
+width="300"></td>
+<td align="center"><img src="img/gallary/011.jpg" height="200"
+width="300"></td>
+<td align="center"><img src="img/gallary/12.jpg" height="200"
+width="300"></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td align="center"><img src="img/gallary/013.jpg" height="200"
+width="300"></td>
+<td align="center"><img src="img/gallary/014.jpg" height="200"
+width="300"></td>
+<td align="center"><img src="img/gallary/015.jpg" height="200"
+width="300"></td>
+<td align="center"><img src="img/gallary/016.jpg" height="200"
+width="300"></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td align="center"><img src="img/gallary/017.jpg" height="200"
+width="300"></td>
+<td align="center"><img src="img/gallary/018.jpg" height="200"
+width="300"></td>
+<td align="center"><img src="img/gallary/019.jpg" height="200"
+width="300"></td>
+<td align="center"><img src="img/gallary/020.jpg" height="200"
+width="300"></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td align="center"><img src="img/gallary/021.jpg" height="200"
+width="300"></td>
+<td align="center"><img src="img/gallary/022.jpg" height="200"
+width="300"></td>
+<td align="center"><img src="img/gallary/023.jpg" height="200"
+width="300"></td>
+<td align="center"><img src="img/gallary/024.jpg" height="200"
+width="300"></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td align="center"><img src="img/gallary/025.jpg" height="200"
+width="300"></td>
+<td align="center"><img src="img/gallary/026.jpg" height="200"
+width="300"></td>
+<td align="center"><img src="img/gallary/027.jpg" height="200"
+width="300"></td>
+<td align="center"><img src="img/gallary/028.jpg" height="200"
+width="300"></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+</table>
+<br/><br/>
+<div class="copyright" align="center">
+&copy; Copyright <strong><span>Event</span></strong>. All Rights
+Reserved
+</div>
+</body>
+</html>
+Contact.php:-
+<!DOCTYPY html>
+<html>
+<head>
+<title>Event Managment</title>
+<style type="text/css">
+</style>
+</head>
+<body bgcolor="#3c010e" text="white">
+<?php
+include_once("header.php")
+?><br/><br/><center>
+<form method=post>
+<h3><label for="fname" >Name:</label>
+<input type="text" name="fname" placeholder="Your Name"
+required><br><br>
+<label for="phn">Phone:</label>
+<input type="text" placeholder="Your Contact No." name="phn" required>
+<br><br>
+<label for="email" >Email:</label>
+<input type="email" placeholder="Your Email" name="email"
+required><br><br>
+<label for="message" >Message:</label>
+<textarea name="msg" placeholder="Your Message"></textarea><br><br>
+<button type="submit" name="submit">SUBMIT</button><br><br>
+</form></h3></center>
+<?php
+extract($_REQUEST);
+if(isset($submit))
+{
+$link=mysqli_connect("localhost","root","","mydb");
+$qry="insert into contact values('$fname','$phn','$email','$msg')";
+mysqli_query($link,$qry);
+mysqli_close($link);
+echo "insert succesfully.....";
+}
+?>
+</div>
+</section><!-- End Contact Section -->
+<form>
+</form>
+</body>
+</html>
+Login.php:-
+<!DOCTYPY html>
+<html>
+<head>
+    <title>Event Managment</title>
+</head>
+<center>
+
+<body bgcolor="#3c010e" text="white">
+<?php
+include_once("header.php")
+?>  <br><br><br><br><br>
+    <h3>Login</h3>
+    <form action="" method="post">
+        <input type="submit" name="admin_login" value="Admin_login">
+        <input type="submit" name="student_login" value="Client_login">
+
+</from>
+<?php
+if(isset($_POST['admin_login'])){
+    header("Location: admin_login.php");
+}
+if(isset($_POST['student_login'])){
+    header("Location: student_login.php");
+}
+?><br><br><br><br><br>
+</center><div class="copyright" align="center">
+        &copy; Copyright <strong><span>Event</span></strong>. All Rights Reserved
+      </div>
+</body>
+</html>
+Customer_login.php:-
+<!DOCTYPY html>
+<html>
+<head>
+<title>Event Managment</title>
+</head>
+<center>
+<body bgcolor="#3c010e" text="white">
+<?php
+include_once("header.php")
+?>  <br><br><br><br><br>
+<h3>Client Login</h3>
+    <form action="" method="post">
+        Email:<input type="text" name="email" required><br><br>
+        Password:<input type="password" name="password" required><br><br>
+        <input type="submit" name="submit" required>
+        
+
+
+</from>
+
+<?php
+session_start();
+if(isset($_POST['submit'])){
+    $connection = mysqli_connect("localhost","root","");
+    $db = mysqli_select_db($connection,"form");
+    $query = "select * from login where email = '$_POST[email]'";
+    $query_run = mysqli_query($connection,$query);
+    while($row = mysqli_fetch_assoc($query_run)){
+        if($row['email'] == $_POST['email']){
+            if($row['password'] == $_POST['password']){
+                $_SESSION['email'] = $row['email'];
+                $_SESSION['name'] = $row['name'];
+               header("Location: student_dashboard.php");
+            }
+            else{
+                echo "Wrong Password";
+            }
+        }
+        else{
+            echo "Worng email ID";
+        }
+    }
+}
+?>
+<br><br><br><br><br>
+</center><div class="copyright" align="center">
+        &copy; Copyright <strong><span>Event</span></strong>. All Rights Reserved
+      </div>
+</body>
+</html>
+Edit_customer.php:-
+<?php
+$connection = mysqli_connect("localhost","root","");
+$db = mysqli_select_db($connection,"form");
+$query = "update student set name='$_POST[name]',father_name='$_POST[father_name]',
+class=$_POST[class],email='$_POST[email]',remark='$_POST[remark]' where roll_no=$_POST[roll_no]";
+$query_run = mysqli_query($connection,$query);
+?>
+<script type="text/javascript">
+alert("Details Edited successfully");
+window.location.href = "student_dashboard.php";
+</script>
+Delete_customer.php:-
+<script type="text/javascript">
+if(Confirm("Are you sure want to delete....?")){
+document.write("<?php
+$connection = mysqli_connect("localhost","root","");
+$db = mysqli_select_db($connection,"form");
+$query ="delete from student where roll_no = $_POST[roll_no]";
+$query_run = mysqli_query($connection,$query);
+?>");
+ window.location.href = "admin_dashboard.php";
+}
+else{
+    window.location.href = "admin_dashboard.php";
+}
+</script>
+Admin_login.php:-
+<!DOCTYPY html>
+<html>
+<head>
+    <title>Event Managment</title>
+</head>
+<center>
+
+<body bgcolor="#3c010e" text="white">
+<?php
+include_once("header.php")
+?>  <br><br><br><br><br>
+
+<h3>Admin Login</h3>
+    <form action="" method="post">
+        Email:<input type="text" name="email" required><br><br>
+        Password:<input type="password" name="password" required><br><br>
+        <input type="submit" name="submit" required>
+        
+
+
+</from>
+
+<?php
+session_start();
+if(isset($_POST['submit'])){
+    $connection = mysqli_connect("localhost","root","");
+    $db = mysqli_select_db($connection,"form");
+    $query = "select * from login where email = '$_POST[email]'";
+    $query_run = mysqli_query($connection,$query);
+    while($row = mysqli_fetch_assoc($query_run)){
+        if($row['email'] == $_POST['email']){
+            if($row['password'] == $_POST['password']){
+                $_SESSION['email'] = $row['email'];
+                $_SESSION['name'] = $row['name'];
+               header("Location: admin_dashboard.php");
+            }
+            else{
+                echo "Wrong Password";
+            }
+        }
+        else{
+            echo "Worng email ID";
+        }
+    }
+}
+?>
+<br><br><br><br><br>
+</center>
+<div class="copyright" align="center">
+        &copy; Copyright <strong><span>Event</span></strong>. All Rights Reserved
+      </div>
+</body>
+</html>
+Admin_edit_customer.php:-
+<?php
+$connection = mysqli_connect("localhost","root","");
+$db = mysqli_select_db($connection,"form");
+$query = "update student set name='$_POST[name]',father_name='$_POST[father_name]',class=$_POST[class],email='$_POST[email]',remark='$_POST[remark]' where roll_no=$_POST[roll_no]";
+$query_run = mysqli_query($connection,$query);
+echo "$query";
+?>
+<script type="text/javascript">
+//alert("Details Edited successfully");
+//window.location.href = "admin_dashboard.php";
+</script>
+Add_customer.php:-
+<?php
+$connection = mysqli_connect("localhost","root","");
+$db = mysqli_select_db($connection,"form");
+$query ="insert into student values('',$_POST[roll_no],'$_POST[name]','$_POST[father_name]',$_POST[class],$_POST[mobile],'$_POST[email]','$_POST[password]','$_POST[remark]')";
+$query_run = mysqli_query($connection,$query);
+?>
+<script type="text/javascript">
+alert("Student Edited successfully");
+window.location.href = "admin_dashboard.php";
+</script>
+Customer_dashboard.php:-
+<!DOCTYPY html>
+<html>
+<head>
+    <title>Event Managment</title>
+	    <?php
+    session_start();
+    $connection = mysqli_connect("localhost","root","");
+    $db = mysqli_select_db($connection,"form");
+   
+    ?>
+</head>
+
+<body bgcolor="#3c010e" text="white">
+<?php
+include_once("header.php")
+?> <br><br><br><br><br>
+    <div id="header">
+        <center><strong> Client Managment System &nbsp;&nbsp;&nbsp;</strong> Email: <?php echo $_SESSION['email']; ?> Name: <?php echo $_SESSION['name']; ?></center>
+        <center><a href="logout.php"><p style="color:white";>Logout</p></a></center>
+</div>
+<div id="left_side"><center><br><br>
+    <form action="" method="post">
+        <table>
+            <tr><td>
+                    <input type="submit" name="show_details" value="Show Details">
+                </td>
+
+
+                <td>
+                    <input type="submit" name="edit_details" value="Edit Details">
+                </td>
+                 
+
+            </tr>
+            </table>
+           </form></center>
+</div>
+<div right_side><br>
+<div id="demo">
+<?php 
+if(isset($_POST['show_details']))
+{
+   ?>
+   <center>
+   <form action="" method="post">
+   Enter SR No:
+   <input type="text" name="roll_no">
+   <input type="submit" name="search_by_roll_no_for_search" value="search">
+   </form>
+   </center>
+<?php
+}
+if(isset($_POST['search_by_roll_no_for_search']))
+{
+    $query = "select * from student where roll_no = '$_POST[roll_no]'";
+    $query_run = mysqli_query($connection,$query);
+    while($row = mysqli_fetch_assoc($query_run))
+    {
+      ?><center>
+      <table>
+     <tr>
+       <td><b>SR No: &nbsp; &nbsp; &nbsp;</b></td>
+       <td>
+       <input type="text" value="<?php echo $row['roll_no']; ?>" disabled>
+       </td>
+
+      </tr>
+      <tr>
+       <td><b>Name: &nbsp; &nbsp; &nbsp;</b></td>
+       <td>
+       <input type="text" value="<?php echo $row['name']; ?>" disabled>
+       </td>
+
+      </tr>
+      <tr>
+       <td><b>Father's / Husband Name: &nbsp; &nbsp; &nbsp;</b></td>
+       <td>
+       <input type="text" value="<?php echo $row['father_name']; ?>" disabled>
+       </td>
+
+      </tr>
+      <tr>
+       <td><b>Pin Code: &nbsp; &nbsp; &nbsp;</b></td>
+       <td>
+       <input type="text" value="<?php echo $row['class']; ?>" disabled>
+       </td>
+
+      </tr>
+      <tr>
+       <td><b>Mobile No: &nbsp; &nbsp; &nbsp;</b></td>
+       <td>
+       <input type="text" value="<?php echo $row['mobile']; ?>" disabled>
+       </td>
+
+      </tr>
+      <tr>
+       <td><b>Email: &nbsp; &nbsp; &nbsp;</b></td>
+       <td>
+       <input type="text" value="<?php echo $row['email']; ?>" disabled>
+       </td>
+
+      </tr>
+      
+      <tr>
+       <td><b>Remark: &nbsp; &nbsp; &nbsp;</b></td>
+       <td>
+       <textarea cols="40" rows="3" disable><?php echo $row['remark']; ?></textarea>
+       </td>
+
+      </tr>
+      </table></center>
+        <?php
+           }
+       }
+    
+    ?>
+    <?php 
+if(isset($_POST['edit_details']))
+{
+   ?>
+   <center>
+   <form action="" method="post">
+   Enter SR No:
+   <input type="text" name="roll_no">
+   <input type="submit" name="search_by_roll_no_for_edit" value="search">
+   </form>
+   </center>
+   <?php
+}
+if(isset($_POST['search_by_roll_no_for_edit']))
+{
+    $query = "select * from student where roll_no = '$_POST[roll_no]'";
+    $query_run = mysqli_query($connection,$query);
+    while($row = mysqli_fetch_assoc($query_run))
+    {
+      ?><center>
+   <form action="edit_student.php" method="post">
+   <table>
+     <tr>
+       <td><b>SR No: &nbsp; &nbsp; &nbsp;</b></td>
+       <td>
+       <input type="text" value="<?php echo $row['roll_no']; ?>">
+       </td>
+
+      </tr>
+      <tr>
+       <td><b>Name: &nbsp; &nbsp; &nbsp;</b></td>
+       <td>
+       <input type="text" name="name" value="<?php echo $row['name']; ?>">
+       </td>
+
+      </tr>
+      <tr>
+       <td><b>Father's / Husband Name: &nbsp; &nbsp; &nbsp;</b></td>
+       <td>
+       <input type="text" name="father_name" value="<?php echo $row['father_name']; ?>">
+       </td>
+
+      </tr>
+      <tr>
+       <td><b>Pin Code: &nbsp; &nbsp; &nbsp;</b></td>
+       <td>
+       <input type="text" name="class" value="<?php echo $row['class']; ?>">
+       </td>
+
+      </tr>
+      <tr>
+       <td><b>Mobile No: &nbsp; &nbsp; &nbsp;</b></td>
+       <td>
+       <input type="text" name="mobile" value="<?php echo $row['mobile']; ?>">
+       </td>
+
+      </tr>
+      <tr>
+       <td><b>Email: &nbsp; &nbsp; &nbsp;</b></td>
+       <td>
+       <input type="text" email="email" value="<?php echo $row['email']; ?>">
+       </td>
+
+      
+      <tr>
+       <td><b>Remark: &nbsp; &nbsp; &nbsp;</b></td>
+       <td>
+       <textarea cols="40" rows="3" name="remark"><?php echo $row['remark']; ?></textarea>
+       </td>
+
+      </tr><br><br>
+      <tr>
+      <td></td>
+      <td><input type="submit" name="edit" value="save"></td>
+      </tr>
+      </table>
+   </form></center>
+      <?php
+    }
+}
+?>
+<br><br><br><br><br>
+
+</div>
+   
+</div></center><div class="copyright" align="center">
+        &copy; Copyright <strong><span>Event</span></strong>. All Rights Reserved
+      </div>
+</body>
+</html>
+Admin_dashboard.php:-
+<!DOCTYPY html>
+<html>
+<head>
+    <title>Event Managment</title>
+	    <?php
+    session_start();
+    $connection = mysqli_connect("localhost","root","");
+    $db = mysqli_select_db($connection,"form");
+   
+    ?>
+</head>
+
+
+<body bgcolor="#3c010e" text="white">
+<?php
+include_once("header.php")
+?>  <br><br><br><br><br>
+
+    <div id="header">
+        <center><strong> Admin Managment System &nbsp;&nbsp;&nbsp;</strong> Email: <?php echo $_SESSION['email']; ?> Name: <?php echo $_SESSION['name']; ?></center>
+        <center><a href="logout.php"><p style="color:white";>Logout</p></a></center>
+</div>
+<div id="left_side"><center><br><br>
+    <form action="" method="post">
+        <table>
+            <tr>
+                <td>
+                    <input type="submit" name="search_student" value="Search Client">
+                </td>
+                <td>
+                    <input type="submit" name="edit_student" value="Edit Client">
+                </td>
+                <td>
+                    <input type="submit" name="add_new_student" value="Add Client">
+                </td>
+                <td>
+                    <input type="submit" name="delete_student" value="Delete Client">
+                </td>
+                
+
+            </tr>
+            </table>
+           </form></center>
+</div>
+<div right_side><br>
+<div id="demo">
+<?php 
+if(isset($_POST['search_student']))
+{
+   ?>
+   <center>
+   <form action="" method="post">
+   Enter SR No:
+   <input type="text" name="roll_no">
+   <input type="submit" name="search_by_roll_no_for_search" value="search">
+   </form>
+   </center>
+<?php
+}
+if(isset($_POST['search_by_roll_no_for_search']))
+{
+    $query = "select * from student where roll_no = '$_POST[roll_no]'";
+    $query_run = mysqli_query($connection,$query);
+    while($row = mysqli_fetch_assoc($query_run))
+    {
+      ?><center>
+      <table>
+     <tr>
+       <td><b>SR No: &nbsp; &nbsp; &nbsp;</b></td>
+       <td>
+       <input type="text" value="<?php echo $row['roll_no']; ?>" disabled>
+       </td>
+
+      </tr>
+      <tr>
+       <td><b>Name: &nbsp; &nbsp; &nbsp;</b></td>
+       <td>
+       <input type="text" value="<?php echo $row['name']; ?>" disabled>
+       </td>
+
+      </tr>
+      <tr>
+       <td><b>Father's /  Husband Name: &nbsp; &nbsp; &nbsp;</b></td>
+       <td>
+       <input type="text" value="<?php echo $row['father_name']; ?>" disabled>
+       </td>
+
+      </tr>
+      <tr>
+       <td><b>Pin Code: &nbsp; &nbsp; &nbsp;</b></td>
+       <td>
+       <input type="text" value="<?php echo $row['class']; ?>" disabled>
+       </td>
+
+      </tr>
+      <tr>
+       <td><b>Mobile No: &nbsp; &nbsp; &nbsp;</b></td>
+       <td>
+       <input type="text" value="<?php echo $row['mobile']; ?>" disabled>
+       </td>
+
+      </tr>
+      <tr>
+       <td><b>Email: &nbsp; &nbsp; &nbsp;</b></td>
+       <td>
+       <input type="text" value="<?php echo $row['email']; ?>" disabled>
+       </td>
+
+      </tr>
+      
+      <tr>
+       <td><b>Remark: &nbsp; &nbsp; &nbsp;</b></td>
+       <td>
+       <textarea cols="40" rows="3" disable><?php echo $row['remark']; ?></textarea>
+       </td>
+
+      </tr>
+      </table></center>
+      <?php
+    }
+}
+?>
+
+
+
+
+<?php 
+if(isset($_POST['edit_student']))
+{
+   ?>
+   <center>
+   <form action="" method="post">
+   Enter SR No:
+   <input type="text" name="roll_no">
+   <input type="submit" name="search_by_roll_no_for_edit" value="search">
+   </form>
+   </center>
+   <?php
+}
+if(isset($_POST['search_by_roll_no_for_edit']))
+{
+    $query = "select * from student where roll_no = '$_POST[roll_no]'";
+    $query_run = mysqli_query($connection,$query);
+    while($row = mysqli_fetch_assoc($query_run))
+    {
+      ?><center>
+   <form action="admin_edit_student.php" method="post">
+   <table>
+     <tr>
+       <td><b>SR No: &nbsp; &nbsp; &nbsp;</b></td>
+       <td>
+       <input type="text" value="<?php echo $row['roll_no']; ?>">
+       </td>
+
+      </tr>
+      <tr>
+       <td><b>Name: &nbsp; &nbsp; &nbsp;</b></td>
+       <td>
+       <input type="text" name="name" value="<?php echo $row['name']; ?>">
+       </td>
+
+      </tr>
+      <tr>
+       <td><b>Father's /  Husband Name: &nbsp; &nbsp; &nbsp;</b></td>
+       <td>
+       <input type="text" name="father_name" value="<?php echo $row['father_name']; ?>">
+       </td>
+
+      </tr>
+      <tr>
+       <td><b>Pin Code: &nbsp; &nbsp; &nbsp;</b></td>
+       <td>
+       <input type="text" name="class" value="<?php echo $row['class']; ?>">
+       </td>
+
+      </tr>
+      <tr>
+       <td><b>Mobile No: &nbsp; &nbsp; &nbsp;</b></td>
+       <td>
+       <input type="text" name="mobile" value="<?php echo $row['mobile']; ?>">
+       </td>
+
+      </tr>
+      <tr>
+       <td><b>Email: &nbsp; &nbsp; &nbsp;</b></td>
+       <td>
+       <input type="text" email="email" value="<?php echo $row['email']; ?>">
+       </td>
+
+      
+      <tr>
+       <td><b>Remark: &nbsp; &nbsp; &nbsp;</b></td>
+       <td>
+       <textarea cols="40" rows="3" name="remark"><?php echo $row['remark']; ?></textarea>
+       </td>
+
+      </tr><br><br>
+      <tr>
+      <td></td>
+      <td><input type="submit" name="edit" value="save"></td>
+      </tr>
+      </table>
+   </form></center>
+      <?php
+    }
+}
+?>
+
+
+
+
+<?php 
+if(isset($_POST['add_new_student'])){
+
+   ?><center>
+   <center><h4>Fill the given details</h4></center>
+    <form action="add_student.php" method="post">
+    <table>
+    <tr>
+    <td>SR No:</td>
+    <td>
+    <input type="text" name="roll_no" require>
+    </td>
+    </tr>
+    <tr>
+    <td>Name:</td>
+    <td>
+    <input type="text" name="name" require>
+    </td>
+    </tr>
+    <tr>
+    <td>Father's /  Husband Name:</td>
+    <td>
+    <input type="text" name="father_name" require>
+    </td>
+    </tr>
+    <tr>
+    <td>Pin COde:</td>
+    <td>
+    <input type="text" name="class" require>
+    </td>
+    </tr>
+    <tr>
+    <td>Mobile:</td>
+    <td>
+    <input type="text" name="mobile" require>
+    </td>
+    </tr>
+    <tr>
+    <td>Email:</td>
+    <td>
+    <input type="text" name="email" require>
+    </td>
+    </tr>
+    <tr>
+    <td>Password:</td>
+    <td>
+    <input type="text" name="password" require>
+    </td>
+    </tr>
+    <tr>
+    <td>Remark:</td>
+    <td>
+    <textarea name="remark"  cols="30" rows="4"></textarea>
+    </td>
+    </tr>
+    <tr>
+    <td></td>
+    <td>
+    <input type="submit" name="add" value="Add Client">
+    </td>
+    </tr>
+    </table>
+    </form></center>
+    <?php
+}
+?>
+
+  <?php
+  if(isset($_POST['delete_student'])){
+      ?>
+      <center><h4>Enter SR No to Delete Student</h4><br>
+      <form action="delete_student.php" method="post">
+      SR No:
+      <input type="text" name="roll_no" >
+      <input type="submit" name="search_by_roll_no_for_delete" value="Delete Student">
+      </form>
+      </center>
+      <?php
+  }
+  ?> 
+</div>
+   <br><br><br><br><br>
+</div><div class="copyright" align="center">
+        &copy; Copyright <strong><span>Event</span></strong>. All Rights Reserved
+      </div>
+</body>
+</html>
